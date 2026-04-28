@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>April 2026 — Monthly Performance Report</title>
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#F5F2ED;color:#1A1A18;padding:32px 24px;max-width:780px;margin:0 auto}
+  .label{font-size:11px;color:#9C9790;letter-spacing:.05em;text-transform:uppercase;margin-bottom:4px}
+  h1{font-size:22px;font-weight:500;margin-bottom:24px}
+  .tabs{display:flex;border-bottom:1px solid rgba(44,44,42,.12);margin-bottom:24px}
+  .tab{background:none;border:none;border-bottom:2px solid transparent;padding:6px 18px 10px;font-size:14px;cursor:pointer;color:#9C9790;margin-bottom:-1px}
+  .tab.active{border-bottom:2px solid #1A1A18;color:#1A1A18;font-weight:500}
+  .section{display:none}.section.active{display:block}
+  .cards{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:10px}
+  .metric-card{background:#EDE9E2;border-radius:10px;padding:14px 18px;flex:1;min-width:140px}
+  .metric-card .mlabel{font-size:11px;color:#6B6660;letter-spacing:.04em;text-transform:uppercase;margin-bottom:6px}
+  .metric-card .mval{font-size:24px;font-weight:500;color:#1A1A18}
+  .metric-card .msub{font-size:11px;color:#9C9790;margin-top:3px}
+  .theme{margin-bottom:22px}
+  .theme-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:6px}
+  .theme-name{font-size:17px;font-weight:500;color:#1A1A18}
+  .theme-count{font-size:22px;font-weight:500;color:#F5F2ED;background:#2C2C2A;padding:3px 14px;border-radius:6px;margin-left:12px;margin-right:12px;flex-shrink:0}
+  .bar-track{height:5px;background:#DDD8D0;border-radius:4px;overflow:hidden;margin-bottom:7px}
+  .bar-fill{height:100%;background:#2C2C2A;border-radius:4px}
+  .theme-names{font-size:12px;color:#6B6660;line-height:1.7}
+  .post-card{border:.5px solid rgba(44,44,42,.12);border-radius:12px;padding:16px 18px;margin-bottom:12px;background:#FDFAF6}
+  .post-tag{display:inline-block;font-size:11px;padding:3px 10px;border-radius:6px;font-weight:500;letter-spacing:.03em;margin-bottom:12px;color:#F5F2ED;background:#2C2C2A}
+  .post-tag.worst{background:#6B6660}
+  .post-headline{font-size:14px;font-weight:500;color:#1A1A18;margin-bottom:14px;line-height:1.4}
+  .post-metrics{display:flex;gap:24px;flex-wrap:wrap;margin-bottom:14px}
+  .post-metric .mk{font-size:11px;color:#9C9790;text-transform:uppercase;letter-spacing:.04em;margin-bottom:2px}
+  .post-metric .mv{font-size:16px;font-weight:500;color:#1A1A18}
+  .post-links{display:flex;gap:8px;flex-wrap:wrap}
+  .post-links a{font-size:12px;color:#4A4540;text-decoration:none;border:.5px solid rgba(44,44,42,.3);padding:5px 14px;border-radius:6px;background:#EDE9E2}
+</style>
+</head>
+<body>
+
+<div class="label">April 2026</div>
+<h1>Monthly performance report</h1>
+
+<div class="tabs">
+  <button class="tab active" onclick="showTab('overview',this)">Overview</button>
+  <button class="tab" onclick="showTab('themes',this)">Themes</button>
+  <button class="tab" onclick="showTab('best',this)">Top posts</button>
+  <button class="tab" onclick="showTab('worst',this)">Worst posts</button>
+</div>
+
+<!-- OVERVIEW -->
+<div id="overview" class="section active">
+  <div class="cards">
+    <div class="metric-card"><div class="mlabel">Articles written</div><div class="mval">204</div><div class="msub">unique articles</div></div>
+    <div class="metric-card"><div class="mlabel">Posts made</div><div class="mval">377</div><div class="msub">total FB posts</div></div>
+  </div>
+  <div class="cards">
+    <div class="metric-card"><div class="mlabel">Articles updated</div><div class="mval">18</div><div class="msub">unique articles</div></div>
+  </div>
+  <div class="cards">
+    <div class="metric-card"><div class="mlabel">Total impressions</div><div class="mval">11.66M</div></div>
+    <div class="metric-card"><div class="mlabel">Avg pageviews / post</div><div class="mval">1,387</div></div>
+  </div>
+  <div class="cards">
+    <div class="metric-card"><div class="mlabel">Avg IPP / post</div><div class="mval">19.20</div></div>
+    <div class="metric-card"><div class="mlabel">Avg FB reach / post</div><div class="mval">111.1K</div></div>
+  </div>
+</div>
+
+<!-- THEMES -->
+<div id="themes" class="section">
+  <div class="label" style="margin-bottom:18px">Post count by topic cluster</div>
+
+  <div class="theme">
+    <div class="theme-header"><span class="theme-name">Nancy Metayer Bowen / Coral Springs Vice Mayor</span><span class="theme-count">67</span></div>
+    <div class="bar-track"><div class="bar-fill" style="width:100%"></div></div>
+    <div class="theme-names">Stephen Bowen (husband detained), murder–suicide, Florida vice mayor found dead, final Instagram posts, brother Donovan (Parkland survivor), social media posts before death, prior lawsuit, police investigation, timeline of death</div>
+  </div>
+
+  <div class="theme">
+    <div class="theme-header"><span class="theme-name">Shreveport / Shamar Elkins tragedy</span><span class="theme-count">45</span></div>
+    <div class="bar-track"><div class="bar-fill" style="width:67.2%"></div></div>
+    <div class="theme-names">8 children killed (Jayla, Shayla, Kayla, Layla, Markaydon, Sariahh, Khedarrion, Braylon), Shaneiqua Elkins, Army National Guard, 911 call audio, sole survivor escape, last social media post, Christina Snow (girlfriend)</div>
+  </div>
+
+  <div class="theme">
+    <div class="theme-header"><span class="theme-name">Justin Fairfax / Virginia Lt. Governor</span><span class="theme-count">28</span></div>
+    <div class="bar-track"><div class="bar-fill" style="width:41.8%"></div></div>
+    <div class="theme-names">Cerina Fairfax (wife), murder–suicide, home cameras during divorce, financial deadline, police investigation, son's 911 call, rare photos with Barack Obama</div>
+  </div>
+
+  <div class="theme">
+    <div class="theme-header"><span class="theme-name">Kristi Noem / Bryon Noem</span><span class="theme-count">22</span></div>
+    <div class="bar-track"><div class="bar-fill" style="width:32.8%"></div></div>
+    <div class="theme-names">Bryon's crossdressing photos, Kristi fired from Homeland Security, Corey Lewandowski affair rumors, alleged double life, Trump's response, Laura Loomer, transformation photos</div>
+  </div>
+
+  <div class="theme">
+    <div class="theme-header"><span class="theme-name">Tina Campbell / Teddy Campbell divorce</span><span class="theme-count">18</span></div>
+    <div class="bar-track"><div class="bar-fill" style="width:26.9%"></div></div>
+    <div class="theme-names">Mary Mary gospel star, Teddy's two-word divorce filing, past infidelity, 25 years of marriage, complicated history, 30+ photos</div>
+  </div>
+
+  <div class="theme">
+    <div class="theme-header"><span class="theme-name">Athena Strand / Tanner Horner trial</span><span class="theme-count">16</span></div>
+    <div class="bar-track"><div class="bar-fill" style="width:23.9%"></div></div>
+    <div class="theme-names">FedEx driver, capital punishment, emotional court evidence, mother's testimony, Athena's final words, chilling audio, disturbing past revealed</div>
+  </div>
+
+  <div class="theme">
+    <div class="theme-header"><span class="theme-name">White House Correspondents' Dinner incident</span><span class="theme-count">14</span></div>
+    <div class="bar-track"><div class="bar-fill" style="width:20.9%"></div></div>
+    <div class="theme-names">Cole Allen (shooter), specific target list, Donald & Melania Trump reaction, JD Vance, security loopholes, manifesto, NY representatives, 93-second timeline</div>
+  </div>
+
+  <div class="theme">
+    <div class="theme-header"><span class="theme-name">Celebrity deaths & tributes</span><span class="theme-count">12</span></div>
+    <div class="bar-track"><div class="bar-fill" style="width:17.9%"></div></div>
+    <div class="theme-names">Patrick Muldoon (Melrose Place), Darrell Sheets (Storage Wars), Alan Osmond (Marie & Donny tribute), Nedra Talley Ross (The Ronettes), Afrika Bambaataa</div>
+  </div>
+
+  <div class="theme">
+    <div class="theme-header"><span class="theme-name">Celebrity transformations / photocentric</span><span class="theme-count">12</span></div>
+    <div class="bar-track"><div class="bar-fill" style="width:17.9%"></div></div>
+    <div class="theme-names">Ciara at Devil Wears Prada 2 premiere, Nicole Kidman's daughter Sunday Rose (prom), Rihanna & baby Rocki, Mariah Carey Easter post, Jermaine Jackson at Michael premiere, Heidi Klum & son Henry, Ella Bleu Travolta, Blue Ivy at Cécred event, Dakota Johnson at TIME100 Gala, Lucy Liu</div>
+  </div>
+
+  <div class="theme">
+    <div class="theme-header"><span class="theme-name">Celebrity relationships & family</span><span class="theme-count">10</span></div>
+    <div class="bar-track"><div class="bar-fill" style="width:14.9%"></div></div>
+    <div class="theme-names">Noah Lyles wedding viral moment, Jack Quaid & Claudia Doumit married, Colman Domingo (Euphoria) love story, Zoë Kravitz engagement ring, Kimora Lee Simmons husband divorce demands, Blair Underwood second wife</div>
+  </div>
+
+  <div class="theme">
+    <div class="theme-header"><span class="theme-name">Celeb crime & legal cases</span><span class="theme-count">8</span></div>
+    <div class="bar-track"><div class="bar-fill" style="width:11.9%"></div></div>
+    <div class="theme-names">D4vd / Celeste Rivas (teen found in trunk), Anna Kepner cruise ship / stepbrother charged, Ashlee Jenae death in Tanzania, Offset stabbing / Lil Tjay detained, Bahamas / Lynette Hooker disappearance (husband arrested)</div>
+  </div>
+
+  <div class="theme">
+    <div class="theme-header"><span class="theme-name">Other crime / tragedy (non-celeb)</span><span class="theme-count">7</span></div>
+    <div class="bar-track"><div class="bar-fill" style="width:10.4%"></div></div>
+    <div class="theme-names">Alabama family murders (Lisa Gail Fields, pregnant Keziah Luker), Nevada airport (Giovanni Perez & son Callan), prom death (Ladainian Cathey, 18), Georgia students car crash (Jackson Mobley, Jaylyn Fehr, Charlotte Martin), Connecticut family (Felisha Matthews & Patrick King), Chicago dad (Xander Kazanowski)</div>
+  </div>
+
+</div>
+
+<!-- TOP POSTS -->
+<div id="best" class="section">
+
+  <div class="post-card">
+    <span class="post-tag">Best FB reach</span>
+    <div class="post-headline">Louisiana Community Devastated After Shreveport Incident Leaves 8 Young Lives Lost</div>
+    <div class="post-metrics">
+      <div class="post-metric"><div class="mk">FB Reach</div><div class="mv">1,714,291</div></div>
+      <div class="post-metric"><div class="mk">Pageviews</div><div class="mv">11,738</div></div>
+      <div class="post-metric"><div class="mk">IPP</div><div class="mv">20.27</div></div>
+    </div>
+    <div class="post-links">
+      <a href="https://amooffice.com/en/cms/facebook/native?originalPostId=534239&limit=100&offset=0&sortBy=dateTime&order=desc" target="_blank">AMO post ↗</a>
+      <a href="https://news.amomama.com/534239-louisiana-community-devastated-after.html" target="_blank">Article ↗</a>
+    </div>
+  </div>
+
+  <div class="post-card">
+    <span class="post-tag">Best pageviews</span>
+    <div class="post-headline">Nancy Bowen's Husband Faces Legal Issues After Family Member Comes Forward with Information</div>
+    <div class="post-metrics">
+      <div class="post-metric"><div class="mk">FB Reach</div><div class="mv">1,599,295</div></div>
+      <div class="post-metric"><div class="mk">Pageviews</div><div class="mv">43,458</div></div>
+      <div class="post-metric"><div class="mk">IPP</div><div class="mv">25.80</div></div>
+    </div>
+    <div class="post-links">
+      <a href="https://amooffice.com/en/cms/facebook/native?originalPostId=525391&limit=100&offset=0&sortBy=dateTime&order=desc" target="_blank">AMO post ↗</a>
+      <a href="https://news.amomama.com/525391-nancy-bowens-husband-faces-legal-issues.html" target="_blank">Article ↗</a>
+    </div>
+  </div>
+
+  <div class="post-card">
+    <span class="post-tag">Best IPP</span>
+    <div class="post-headline">Who Is Kristi Noem's Husband Bryon Noem? Inside Their Family Life in 50+ Photos</div>
+    <div class="post-metrics">
+      <div class="post-metric"><div class="mk">FB Reach</div><div class="mv">67,229</div></div>
+      <div class="post-metric"><div class="mk">Pageviews</div><div class="mv">369</div></div>
+      <div class="post-metric"><div class="mk">IPP</div><div class="mv">33.38</div></div>
+    </div>
+    <div class="post-links">
+      <a href="https://amooffice.com/en/cms/facebook/native?originalPostId=512825&limit=100&offset=0&sortBy=dateTime&order=desc" target="_blank">AMO post ↗</a>
+      <a href="https://news.amomama.com/512825-who-is-kristi-noems-husband-bryon-noem.html" target="_blank">Article ↗</a>
+    </div>
+  </div>
+
+</div>
+
+<!-- WORST POSTS -->
+<div id="worst" class="section">
+
+  <div class="post-card">
+    <span class="post-tag worst">Worst FB reach</span>
+    <div class="post-headline">Dolly Parton, 80, Turns Heads in New Denim Collection, Igniting Buzz over Her Look — Photos</div>
+    <div class="post-metrics">
+      <div class="post-metric"><div class="mk">FB Reach</div><div class="mv">2,355</div></div>
+      <div class="post-metric"><div class="mk">Pageviews</div><div class="mv">4</div></div>
+      <div class="post-metric"><div class="mk">IPP</div><div class="mv">11.75</div></div>
+    </div>
+    <div class="post-links">
+      <a href="https://amooffice.com/en/cms/facebook/native?originalPostId=528158&limit=100&offset=0&sortBy=dateTime&order=desc" target="_blank">AMO post ↗</a>
+      <a href="https://news.amomama.com/528158-dolly-parton-80-turns-heads-in-new-denim.html" target="_blank">Article ↗</a>
+    </div>
+  </div>
+
+  <div class="post-card">
+    <span class="post-tag worst">Worst pageviews</span>
+    <div class="post-headline">Dolly Parton, 80, Turns Heads in New Denim Collection, Igniting Buzz over Her Look — Photos</div>
+    <div class="post-metrics">
+      <div class="post-metric"><div class="mk">FB Reach</div><div class="mv">2,355</div></div>
+      <div class="post-metric"><div class="mk">Pageviews</div><div class="mv">4</div></div>
+      <div class="post-metric"><div class="mk">IPP</div><div class="mv">11.75</div></div>
+    </div>
+    <div class="post-links">
+      <a href="https://amooffice.com/en/cms/facebook/native?originalPostId=528158&limit=100&offset=0&sortBy=dateTime&order=desc" target="_blank">AMO post ↗</a>
+      <a href="https://news.amomama.com/528158-dolly-parton-80-turns-heads-in-new-denim.html" target="_blank">Article ↗</a>
+    </div>
+  </div>
+
+  <div class="post-card">
+    <span class="post-tag worst">Worst pageviews</span>
+    <div class="post-headline">Heidi Klum's Son Henry Triggers Major Reactions with Latest Photos</div>
+    <div class="post-metrics">
+      <div class="post-metric"><div class="mk">FB Reach</div><div class="mv">4,506</div></div>
+      <div class="post-metric"><div class="mk">Pageviews</div><div class="mv">5</div></div>
+      <div class="post-metric"><div class="mk">IPP</div><div class="mv">57.40</div></div>
+    </div>
+    <div class="post-links">
+      <a href="https://amooffice.com/en/cms/facebook/native?originalPostId=527236&limit=100&offset=0&sortBy=dateTime&order=desc" target="_blank">AMO post ↗</a>
+      <a href="https://news.amomama.com/527236-heidi-klums-son-henry-triggers-major.html" target="_blank">Article ↗</a>
+    </div>
+  </div>
+
+  <div class="post-card">
+    <span class="post-tag worst">Worst IPP</span>
+    <div class="post-headline">Chris Brown's Daughter, Royalty, Turns Heads in Leopard Print Set — Photos</div>
+    <div class="post-metrics">
+      <div class="post-metric"><div class="mk">FB Reach</div><div class="mv">242,257</div></div>
+      <div class="post-metric"><div class="mk">Pageviews</div><div class="mv">908</div></div>
+      <div class="post-metric"><div class="mk">IPP</div><div class="mv">8.78</div></div>
+    </div>
+    <div class="post-links">
+      <a href="https://amooffice.com/en/cms/facebook/native?originalPostId=535743&limit=100&offset=0&sortBy=dateTime&order=desc" target="_blank">AMO post ↗</a>
+      <a href="https://ondoho.com/535743-chris-browns-daughter-royalty-turns.html" target="_blank">Article ↗</a>
+    </div>
+  </div>
+
+</div>
+
+<script>
+function showTab(id, el) {
+  document.querySelectorAll('.section').forEach(s=>s.classList.remove('active'));
+  document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));
+  document.getElementById(id).classList.add('active');
+  el.classList.add('active');
+}
+</script>
+</body>
+</html>
